@@ -27,7 +27,7 @@ const QuaverCommand : SlashCommand = {
                 mode = 2;
             }
 
-            const scoreUrl = `${baseUrl}users/scores/best?id=${quaverId}&mode=${mode}&limit=1`;
+            const scoreUrl = `${baseUrl}/users/scores/best?id=${quaverId}&mode=${mode}&limit=1`;
             const score = await axios.get(scoreUrl);
             const scoreData = score.data;
 
