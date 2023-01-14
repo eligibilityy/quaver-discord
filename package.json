@@ -1,0 +1,25 @@
+{
+  "name": "quaver-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "rmdir build /s && tsc && node build/index.js",
+    "dev": "tsc && node build/index.js"
+  },
+  "keywords": [],
+  "author": "eligibilityy",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/rest": "^1.1.0",
+    "axios": "^1.2.2",
+    "chalk": "^4.1.2",
+    "discord.js": "14.3.0",
+    "dotenv": "^16.0.2",
+    "mongoose": "^6.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "typescript": "^4.8.2"
+  }
+}
